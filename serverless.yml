@@ -6,7 +6,7 @@ provider:
   runtime: nodejs8.10
   memorysize: 128 # set the maximum memory of the Lambdas in Megabytes
   timeout: 10 # default is 6 sec
-  stage: dev
+  stage: production
   region: eu-central-1
 
 functions: # add 5 functions for crud
