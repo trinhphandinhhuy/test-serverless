@@ -3,7 +3,5 @@ node_js:
 - "8.10"
 script: 
     - npm install -g serverless
-    - node -v
-    - npm -v
-    - npm install
+    - npm install --production
     - sls deploy
